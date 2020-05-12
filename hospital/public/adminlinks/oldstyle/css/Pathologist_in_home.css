@@ -1,0 +1,148 @@
+/*Typography.................................*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: ;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+.fix{
+    overflow: hidden;
+}
+
+
+
+.container_full{
+    width: 100%;
+    background: darkcyan;
+}
+
+.container{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+/*End Typography.................................*/
+
+
+/*Navigation part Start .........................*/
+.navbar-light .navbar-nav .nav-link{
+transition: all linear .4s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  background:#1B2F5B;
+  color: #ffffff;
+}
+.dropdown-item{
+  background:#1B2F5B;
+  color: #ffffff;
+
+}
+
+/*Navigation part End*/
+
+
+
+/*Form Part.................................*/
+.pathologist_wrapper .title{
+    text-align: center;
+    color: #C0C0C0;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.pathologist_wrapper h2{
+    color: #C0C0C0;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.pathologist_profile{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+span{
+    color: #C0C0C0;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+form input[type="text"] ,input[type="date"]{
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    width: 39%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+select{
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+.payment ul{
+    display: inline-block;
+    background: #47484B;
+    border-radius: 5px;
+}
+.payment ul li{
+    float: left;
+    padding: 10px 10px;
+}
+.payment ul li a{
+    display: block;
+}
+.payment ul li a img{
+    display: block;
+    width: 50px;
+    border: 3px solid black;
+}
+.same{
+    margin-right: 5px;
+    padding: 7px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #00FFFF;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.same:hover{
+    background: #4CAF50;
+}
+
+
+/* Slider Part ........................ */
+
+.main_wrap{
+    width: 50%;
+    padding: 20px;
+    background: #47484B;
+    border-radius: 10px;
+    margin: 20px auto;
+}

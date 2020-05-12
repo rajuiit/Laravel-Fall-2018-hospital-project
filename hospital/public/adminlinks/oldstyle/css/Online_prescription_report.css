@@ -1,0 +1,258 @@
+/*Typography.................................*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: ;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+.fix{
+    overflow: hidden;
+}
+
+
+
+.container_full{
+    width: 100%;
+    background: url("../img/patient_pres.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+/*End Typography.................................*/
+
+
+/*Navigation part Start .........................*/
+.navbar-light .navbar-nav .nav-link{
+transition: all linear .4s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  background:#1B2F5B;
+  color: #ffffff;
+}
+.dropdown-item{
+  background:#1B2F5B;
+  color: #ffffff;
+
+}
+
+/*Navigation part End*/
+
+
+
+
+/* Form part */
+
+.wrap_form h1{
+    text-align: center;
+    color: darkcyan;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+/* Left form..................*/
+
+.left_form{
+    width: 70%;
+    float: left;
+}
+.left_form h2{
+    color: darkcyan;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* First form............*/
+.main_form .first{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+span{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.main_form .first input[type="text"]{
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+.main_form .first input[type="number"]{
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+.main_form .first input[type="date"]{
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+.main_form .first input[type="email"]{
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+.main_form .first .select{
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+.main_form .first .select option{
+    font-weight: bold;
+}
+.same_files{
+    color: darkcyan;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+.same{
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 7px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #00FFFF;
+    transition: all .5s ease;
+}
+.same:hover{
+    background: #4CAF50;
+}
+.i_frame{
+    width: 65%;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+ 
+/* Second form.............*/
+.main_form .second{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+/* Third form.............*/
+.main_form .third{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+/* Feedback form.............*/
+.main_form .feedback{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.main_form .feedback textarea{
+    background: #00FFFF;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+/* Rifht form..................*/
+.right_form{
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+}
+.right_form .p_profile .pro{
+    padding: 3px 15px;
+    background: #8E8E8E;
+    color: #E8EAED;
+    margin: 0;
+    border-radius: 8px 8px 0px 0px;
+}
+.right_form .p_profile img{
+    padding: 10px;
+    background: #8E8E8E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

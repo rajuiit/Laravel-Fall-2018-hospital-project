@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../img/hostel_reservation_bg.jpg");
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/*Navigation part Start .........................*/
+.navbar-light .navbar-nav .nav-link{
+transition: all linear .4s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  background:#1B2F5B;
+  color: #ffffff;
+}
+.dropdown-item{
+  background:#1B2F5B;
+  color: #ffffff;
+
+}
+
+/*Navigation part End*/
+
+
+
+/* Header part start ..........*/
+
+#con_1 h1{
+    color: darkred;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+/* Content part start ..................*/
+
+#con_2 h3, #con_4 h3{
+	color: darkred;
+    font-weight: bold;
+    margin: 45px 0px;
+}
+
+
+/* Card part start ................*/
+
+#row_1 .card, #row_2 .card{
+	/*width: 70%;*/
+	/*background-color: rgba(0,0,0,0.7);*/
+	border: none;
+}
+#row_1 .card-body button, #row_2 .card-body button{
+	font-weight: bold;
+}
+#row_1 .modal-content, #row_2 .modal-content{
+	background-color: rgba(0,0,0,0.7);
+}
+#row_1 .modal-body input, #row_2 .modal-body input{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+}
+
+#row_1 .only_for_male, .only_for_female{
+
+	width: 48%;
+}
+#row_1 .only_for_male h4, .only_for_female h4{
+
+	font-weight: bold;
+	font-size: 28px;
+	margin: 20px auto;
+	color: darkblue;
+}
+
+
+/* Single room Reservation start ..................*/
+#row_2 .only_for_male, .only_for_female{
+
+	width: 48%;
+}
+#row_2 .only_for_male h4, .only_for_female h4{
+
+	font-weight: bold;
+	font-size: 28px;
+	margin: 20px auto;
+	color: darkblue;
+}
